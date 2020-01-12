@@ -71,6 +71,10 @@ def get_school_amenity(l):
 def count_schools(lat: float, long: float, padding: float = 0.01) -> int:
     """
     Counts the number of schools around a given location
+
+    This method queries the OSM API, receives nodes, ways and relations representing schools
+    and tries to reach an accurate count by removing duplicate entries such as nodes and ways 
+    that mark the same locations
     """
     response = get_nodes(locations_to_bounding_box(lat, long, padding), "school")
 
