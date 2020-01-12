@@ -9,10 +9,16 @@ logging.basicConfig(
 
 
 def add_point_to_node(node: Dict) -> Dict:
+    """
+    Add a Point object to a node dictionary, based on it's coordinates
+    """
     return dict(node, **{"point": Point(node.get("lat"), node.get("lon"))})
 
 
 def add_polygon_to_way(way: Dict, node_map: Dict) -> Dict:
+    """
+    Add a Polygon object to a way, based on a list of relevant nodes
+    """
     polygon = Polygon(
                 [
                     (p.x, p.y)
@@ -27,6 +33,9 @@ def add_polygon_to_way(way: Dict, node_map: Dict) -> Dict:
 
 
 def is_within_ways(node: Dict, ways: List) -> bool:
+    """
+    Predicate for checking if a given node overlaps a list of ways 
+    """
     point = node.get("point")
     for way in ways:
         polygon = way.get("polygon")
@@ -42,6 +51,9 @@ def is_within_ways(node: Dict, ways: List) -> bool:
 
 
 def filter_nodes(node_list: List, ways: List) -> List:
+    """
+    Filter all nodes that overlap any way of a given list
+    """
     return list(filter(lambda x: not is_within_ways(x, ways), node_list))
 
 

@@ -62,6 +62,9 @@ def is_tagged(node: Dict, key: str, value: str) -> bool:
 
 
 def get_school_amenity(l):
+    """
+    Filter a list to have only elements tagged as school amenity
+    """
     return list(filter(lambda x: is_tagged(x, "amenity", "school"), l))
 
 
