@@ -77,7 +77,6 @@ REQUEST
 }
 
 RESPONSE
-REQUEST 
 {
     "data": [
         {
