@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.55.1011 6c2efc30">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2020-01-11T18:19:02Z"/>
+  <node id="1019879836" lat="32.0958091" lon="34.7748632"/>
+  <node id="1019879839" lat="32.0955304" lon="34.7747945"/>
+  <node id="1019879841" lat="32.0954136" lon="34.7754552"/>
+  <node id="1019879840" lat="32.0956923" lon="34.7755239"/>
+  <node id="1892796264" lat="32.0955910" lon="34.7754304">
+    <tag k="addr:housenumber" v="294"/>
+    <tag k="addr:street" v="Hayarkon"/>
+    <tag k="amenity" v="school"/>
+    <tag k="designation" v="תיכון"/>
+    <tag k="int_name" v="Ironi Hei"/>
+    <tag k="name" v="עירוני ה'"/>
+    <tag k="name:he" v="עירוני ה'"/>
+  </node>
+  <way id="87701854">
+    <nd ref="1019879836"/>
+    <nd ref="1019879839"/>
+    <nd ref="1019879841"/>
+    <nd ref="1019879840"/>
+    <nd ref="1019879836"/>
+    <tag k="amenity" v="school"/>
+    <tag k="building" v="school"/>
+    <tag k="name" v="תיכון עירוני ה"/>
+    <tag k="name:he" v="תיכון עירוני ה"/>
+  </way>
+</osm>

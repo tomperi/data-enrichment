@@ -1,0 +1,6 @@
+flask
+requests
+lxml
+xmljson
+shapely
+numpy

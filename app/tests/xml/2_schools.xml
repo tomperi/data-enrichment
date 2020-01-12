@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.55.1011 6c2efc30">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2020-01-11T14:20:03Z"/>
+  <node id="257098182" lat="50.7773966" lon="7.2126444">
+    <tag k="addr:city" v="Sankt Augustin"/>
+    <tag k="addr:country" v="DE"/>
+    <tag k="addr:housenumber" v="7"/>
+    <tag k="addr:postcode" v="53757"/>
+    <tag k="addr:street" v="Alte Marktstraße"/>
+    <tag k="amenity" v="school"/>
+    <tag k="isced:level" v="2;3"/>
+    <tag k="name" v="Albert-Einstein-Gymnasium"/>
+    <tag k="operator" v="Stadt Sankt Augustin"/>
+    <tag k="website" v="https://www.albert-einstein-gymnasium.de/"/>
+    <tag k="wheelchair" v="limited"/>
+  </node>
+  <way id="49130602">
+    <nd ref="623027541"/>
+    <nd ref="4826317169"/>
+    <nd ref="623027547"/>
+    <nd ref="623027550"/>
+    <nd ref="4826317168"/>
+    <nd ref="4826317180"/>
+    <nd ref="623027541"/>
+    <tag k="amenity" v="school"/>
+    <tag k="name" v="Footscray City Primary School"/>
+  </way>
+  <way id="291033168">
+    <nd ref="2945033540"/>
+    <nd ref="258314305"/>
+    <nd ref="2069266270"/>
+    <nd ref="2069266281"/>
+    <nd ref="2069266287"/>
+    <nd ref="2945033541"/>
+    <nd ref="2945033542"/>
+    <nd ref="2945033543"/>
+    <nd ref="2945033544"/>
+    <nd ref="2945033545"/>
+    <nd ref="2945033540"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:street" v="Kinnear Street"/>
+    <tag k="amenity" v="school"/>
+    <tag k="name" v="Footscray City College"/>
+    <tag k="website" v="http://www.footscray.vic.edu.au/"/>
+  </way>
+</osm>
